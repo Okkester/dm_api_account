@@ -1,8 +1,8 @@
 from requests import Response  # для поддержки возврата объекта response
 from restclient.restclient import Restclient
-from apis.dm_api_account.utilities import validate_request_json, validate_status_code
+from dm_api_account.utilities import validate_request_json, validate_status_code
 import allure
-from apis.dm_api_account.models import *
+from dm_api_account.models import *
 
 
 class AccountApi:  # Это наш клиент
